@@ -1,4 +1,5 @@
 Rest / Spread Operator Exercises
+---
 In this exercise, you’ll refactor some ES5 code into ES2015.
 
 ES5 Function that takes a variable number of arguments
@@ -37,6 +38,7 @@ const doubleAndReturnArgs = (arr,...args) => [...arr, ...args.map(arg => arg*2)]
 ------
 
 Slice and Dice!
+---
 For this section, write the following functions using rest, spread and refactor these functions to be arrow functions!
 
 Make sure that you are always returning a new array or object and not modifying the existing inputs.
